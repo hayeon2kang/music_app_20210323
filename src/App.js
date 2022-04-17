@@ -51,9 +51,9 @@ const musicLike = [
 function App() {
   return (
     <div>
-      {musicLike.map(song => (
-      <Music key={song.id} name={song.name} picture={song.image} singer={song.artist} date={song.released}/>
-      ))}
+      {musicLike.map(song => 
+        <Music key={song.id} name={song.name} picture={song.image} singer={song.artist} date={song.released}/>
+      )}
     </div>
   )
 }
