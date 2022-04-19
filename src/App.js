@@ -45,7 +45,7 @@ const musicLike = [
     image: 'http://www.akbobada.com/home/akbobada/archive/akbo/img/54672.jpg',
     artist: 'Daft Punk',
     released: 2001
-  },
+  }
 ];
 
 function App() {
@@ -55,7 +55,7 @@ function App() {
         <Music key={song.id} name={song.name} picture={song.image} singer={song.artist} date={song.released}/>
       )}
     </div>
-  )
+  );
 }
 
 Music.propTypes = {
